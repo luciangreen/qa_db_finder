@@ -21,29 +21,32 @@ Please read the following instructions on how to install the project on your com
 
 # Prerequisites
 
-None
+* Please download and install SWI-Prolog for your machine at `https://www.swi-prolog.org/build/`.
 
-# Installation from List Prolog Package Manager (LPPM)
+# 1. Install manually
 
-* Optionally, you can install from LPPM by installing <a href="https://www.swi-prolog.org/build/">SWI-Prolog</a> for your machine, downloading the <a href="https://github.com/luciangreen/List-Prolog-Package-Manager">LPPM Repository</a>,
+Download <a href="http://github.com/luciangreen/qa_db_finder/">this repository</a>.
+
+# 2. Or Install from List Prolog Package Manager (LPPM)
+
+* Download the <a href="https://github.com/luciangreen/List-Prolog-Package-Manager">LPPM Repository</a>:
+
 ```
 git clone https://github.com/luciangreen/List-Prolog-Package-Manager.git
 cd List-Prolog-Package-Manager
 swipl
-```
-loading LPPM with `['lppm'].` then installing the package by running `lppm_install("luciangreen","qa_db_finder").`.
-
-# Installing
-
-* Download the repository to your machine.
-Enter the following to load the algorithm:
-```
+['lppm'].
+lppm_install("luciangreen","qa_db_finder")
 halt
-cd ../qa_db_finder
-swipl
-['qa_db_finder.pl'].
-qa_db_finder(Algorithm).
 ```
+
+# Running
+
+* In Shell:
+`cd qa_db_finder`
+`swipl`
+`['qa_db_finder.pl'].`
+`qa_db_finder(Algorithm).`
 
 # Authors
 
