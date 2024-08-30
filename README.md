@@ -39,7 +39,8 @@ cd List-Prolog-Package-Manager
 swipl
 ['lppm'].
 lppm_install("luciangreen","qa_db_finder").
-halt
+../
+halt.
 ```
 
 # Running
